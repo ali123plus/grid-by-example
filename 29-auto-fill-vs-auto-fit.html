@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <style type="text/css">
+    body {
+      margin: 40px;
+    }
+
+    /* .wrapper1 {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(200px, 1fr));
+      grid-gap: 1rem;
+    } */
+
+    .wrapper2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      grid-gap: 1rem;
+    }
+
+    .wrapper3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 1rem;
+    }
+
+    .box1 {
+      background-color: #444;
+      color: #fff;
+      border-radius: 5px;
+      padding: 20px;
+      font-size: 150%;
+    }
+
+    .box2 {
+      background-color: #c26262;
+      color: #fff;
+      border-radius: 5px;
+      padding: 20px;
+      font-size: 150%;
+    }
+
+    .box3 {
+      background-color: #3d9c68;
+      color: #fff;
+      border-radius: 5px;
+      padding: 20px;
+      font-size: 150%;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- <p>Normal</p>
+  <div class="wrapper1">
+    <div class="box1">A</div>
+    <div class="box1">B</div>
+    <div class="box1">C</div>
+  </div> -->
+
+  <p>`Auto-fill`</p>
+  <div class="wrapper2">
+    <div class="box2">A</div>
+    <div class="box2">B</div>
+    <div class="box2">C</div>
+  </div>
+
+  <p>`Auto-fit`</p>
+  <div class="wrapper3">
+    <div class="box3">A</div>
+    <div class="box3">B</div>
+    <div class="box3">C</div>
+  </div>
+</body>
+
+</html>
